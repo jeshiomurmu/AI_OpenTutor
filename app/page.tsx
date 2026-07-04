@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { AITutorChat } from '@/components/ai-tutor-chat';
+import { EnhancedTutorChat } from '@/components/enhanced-tutor-chat';
 import { Sidebar } from '@/components/sidebar';
 import { Header } from '@/components/header';
 import { CommandPalette } from '@/components/command-palette';
@@ -164,7 +164,7 @@ function Dashboard() {
       <div className="flex flex-1 flex-col overflow-hidden">
         <Header />
         <main className="flex-1 overflow-hidden">
-          <AITutorChat />
+          <EnhancedTutorChat />
         </main>
       </div>
       <CommandPalette />
