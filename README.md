@@ -7,7 +7,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 <div align="center">
-  <img src="docs/images/hero-banner.png" alt="AI OpenTutor Banner" width="800">
+  
+  # 🧠 AI OpenTutor
   
   <p align="center">
     <strong>A privacy-first AI tutor that learns from YOUR materials</strong>
@@ -74,42 +75,60 @@ Unlike generic AI chatbots, AI OpenTutor is designed specifically for learning:
 
 ---
 
-## 📸 Demo
+## 📸 Demo Screenshots
+
+> **Note**: The screenshots below are placeholders. To capture actual screenshots, run `npm run dev` and take screenshots using your browser's developer tools or a screenshot tool.
 
 ### Authentication & Dashboard
-<img src="docs/images/auth-page.png" alt="Auth Page" width="600">
+**File**: `docs/images/auth-page.png`
 
-The clean sign-in page with feature highlights and a modern auth form.
+```
+┌─────────────────────────────────────────────────────────────┐
+│  🧠 AI Tutor                                    [Sign In]    │
+│                                                             │
+│  ┌─────────────────────┐    ┌─────────────────────────┐    │
+│  │                     │    │  [Sign In] [Sign Up]    │    │
+│  │  Learn Smarter      │    │                         │    │
+│  │  with AI            │    │  Email: ____________    │    │
+│  │                     │    │  Password: ___________  │    │
+│  │  • Socratic Learning│    │                         │    │
+│  │  • Knowledge Gaps   │    │  [Sign In]              │    │
+│  │  • Problem Breakdown│    │                         │    │
+│  │  • Misconceptions   │    └─────────────────────────┘    │
+│  └─────────────────────┘                                   │
+└─────────────────────────────────────────────────────────────┘
+```
+*The clean sign-in page with feature highlights and a modern auth form.*
 
 ### Document Upload
-<img src="docs/images/upload-modal.png" alt="Upload Modal" width="600">
+**File**: `docs/images/upload-modal.png`
 
-Drag and drop any PDF, image, or text file. Processing happens locally.
+*Drag and drop any PDF, image, or text file. Processing happens locally with real-time progress.*
 
 ### Socratic Learning Mode
-<img src="docs/images/socratic-mode.png" alt="Socratic Mode" width="600">
+**File**: `docs/images/socratic-mode.png`
 
-The tutor guides you to discover answers rather than giving them directly.
+*The tutor guides you to discover answers rather than giving them directly.*
 
 ### Grounded Citations
-<img src="docs/images/citations.png" alt="Citations" width="600">
+**File**: `docs/images/citations.png`
 
-Every answer includes clickable citations that reference your materials.
+*Every answer includes clickable citations like `[Page 12, Para 3]` that reference your materials.*
 
 ### Self-Explanation Feedback
-<img src="docs/images/self-explanation.png" alt="Self-Explanation" width="600">
+**File**: `docs/images/self-explanation.png`
 
-Explain concepts in your own words and get detailed feedback.
+*Explain concepts in your own words and get detailed feedback with accuracy scoring.*
 
 ### Flashcard Review
-<img src="docs/images/flashcards.png" alt="Flashcards" width="600">
+**File**: `docs/images/flashcards.png`
 
-Review flashcards with spaced repetition. Rate your understanding.
+*Review flashcards with spaced repetition. Flip cards and rate your understanding (Again/Hard/Good/Easy).*
 
 ### Quiz Mode
-<img src="docs/images/quiz.png" alt="Quiz Mode" width="600">
+**File**: `docs/images/quiz.png`
 
-Test your knowledge with multiple choice questions and explanations.
+*Test your knowledge with multiple choice questions and explanations.*
 
 ---
 
